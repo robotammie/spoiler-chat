@@ -51,6 +51,10 @@ group :development do
 end
 
 group :test do
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'rspec-rails', ">= 2.0.0.beta"
+  gem 'shoulda-matchers', '~> 2.6', require: false
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
